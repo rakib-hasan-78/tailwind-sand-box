@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TailwindCSS</title>
+  </head>
+  <body>
+    <!-- Positioning -->
+
+        <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
+
+    <!-- Top left corner -->
+    <div class="bg-stone-500 text-white font-black relative w-3/6 p-0 mx-auto mt-5 h-44">
+      <p class="capitalize text-center text-3xl">top left corner</p>
+       <div class="bg-stone-400 w-24 h-24 absolute bottom-0 top-0"></div>
+    </div>
+
+    <!-- Top right corner -->
+    <div class="bg-stone-500/80 text-stone-100 font-black relative w-3/6 p-0 mx-auto mt-5 h-44">
+      <p class="capitalize text-center text-3xl">top right corner</p>
+      <div class="bg-stone-300/40 w-24 h-24 absolute right-0 top-0"></div>
+    </div>
+    <!-- Bottom left corner -->
+
+    <div class="bg-stone-500/70 text-stone-100 font-black relative w-3/6 p-0 mx-auto mt-5 h-44">
+      <p class="font-black text-3xl capitalize text-center">bottom left corner</p>
+      <div class="bg-stone-300/50 w-24 h-24 absolute bottom-0 left-0"></div>
+    </div>
+
+    <!-- Bottom right corner -->
+    <div class="bg-stone-500/60 text-stone-100 font-black relative w-3/6 p-0 mx-auto mt-5 h-44">
+      <p class="capitalize text-3xl text-center capitalize">bottom right corner</p>
+      <div class="bg-stone-300/60 w-24 h-24 absolute bottom-0 right-0"></div>
+    </div>
+    <!-- Span top edge -->
+    <div class="bg-stone-500/60 text-stone-100 font-black relative w-3/6 p-0 mx-auto mt-5 h-44">
+      <p class="capitalize text-3xl text-center capitalize">Span top edge</p>
+      <div class="bg-stone-300/60 h-24 absolute inset-x-0 top-0"></div>
+    </div>
+    <!-- Span left edge -->
+    <div class="bg-stone-500/60 text-stone-100 font-black relative w-3/6 p-0 mx-auto h-44">
+      <p class="capitalize text-3xl text-center capitalize">Span left edge</p>
+      <div class="bg-stone-300/60 w-24 absolute inset-y-0 left-0"></div>
+    </div>
+    <!-- Span right edge -->
+    <div class="bg-stone-500/60 text-stone-100 font-black relative w-3/6 p-0 mx-auto h-44">
+      <p class="capitalize text-3xl text-center capitalize">Span right edge</p>
+      <div class="bg-stone-300/60 w-24 absolute inset-y-0 right-0"></div>
+    </div>
+    <!-- Span bottom edge -->
+    <div class="bg-stone-500/60 text-stone-100 font-black relative w-3/6 p-0 mx-auto h-44">
+      <p class="capitalize text-3xl text-center capitalize">Span bottom edge</p>
+      <div class="bg-stone-300/60 h-24 absolute inset-x-0 bottom-0"></div>
+    </div>
+    <!-- Display Classes -->
+    <span class="inline text-red-400 capitalize">inline text . Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> Exercitationem voluptatibus soluta assumenda, animi sint, enim aut deleniti saepe rem neque sapiente tempora explicabo consequatur pariatur quod ex necessitatibus. <span class="inline-block text-blue-600"> Voluptatem aliquam cumque vitae?</span> <span class="block text-red-700">Neque magnam doloremque in quisquam corporis sequi, sapiente impedit nemo sunt placeat similique!</span> <span class="list-item uppercase">i am the hidden truth!</span> Distinctio cupiditate eum blanditiis, veritatis enim quis inventore suscipit odit, nesciunt possimus architecto excepturi perspiciatis.
+    <!-- Z-Index -->
+    <div class="bg-blue-100 w-4/6 h-48 mx-auto  relative">
+      <div class="bg-blue-300 w-32 left-10 h-24 text-4xl font-black text-blue-200 absolute z-30">1</div>
+      <div class="bg-blue-400 w-32 left-20 h-24 text-4xl font-black text-blue-200 absolute z-40">2</div>
+      <div class="bg-blue-500 w-32 left-30 h-24 text-4xl font-black text-blue-200 absolute z-30">3</div>
+      <div class="bg-blue-600 w-32 h-24 text-4xl font-black text-blue-200 absolute">4</div>
+      <div class="bg-blue-700 w-32 left-40 h-24 text-4xl font-black text-blue-200 absolute">5</div>
+    </div>
+    <!-- Floats -->
+    <div class="w-1/2 bg-blue-200">
+      <img class="h-48 w-48 float-left m-2" src="../assets/img/img1.jpg" alt="img">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit iure ab id officia at quasi dolor odit perferendis in deserunt, inventore debitis culpa ad quae expedita molestiae praesentium vitae minus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit culpa ratione, quaerat eum sapiente, sit consequuntur cumque nihil ullam atque ad nam eos praesentium incidunt autem dolor corporis eaque magni molestias. Nisi quos alias hic, magni numquam blanditiis dolores molestiae fugit, veritatis odit earum ad aliquid odio sed error quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat labore natus autem quas a aspernatur hic amet sequi optio cupiditate et recusandae excepturi rerum, totam cum numquam? Libero accusantium, est esse aperiam labore veniam laborum commodi ipsam? Perferendis, et.</p>
+    </div>
+  </body>
+</html>
+
+<!-- Position Classes
+      static	    position: static;
+      fixed	      position: fixed;
+      absolute	  position: absolute;
+      relative	  position: relative;
+      sticky	    position: sticky;
+    -->
+
+<!-- Display Classes
+      block	            display: block;
+      inline-block	    display: inline-block;
+      inline	          display: inline;
+      flex	            display: flex;
+      inline-flex	      display: inline-flex;
+      table	            display: table;
+      grid	            display: grid;
+      inline-grid	      display: inline-grid;
+      contents	        display: contents;
+      list-item	        display: list-item;
+      hidden	          display: none;
+    -->
+
+<!-- Z-Index
+      z-0	    z-index: 0;
+      z-10	  z-index: 10;
+      z-20	  z-index: 20;
+      z-30	  z-index: 30;
+      z-40	  z-index: 40;
+      z-50	  z-index: 50;
+      z-auto	z-index: auto;
+    -->
+
+<!-- Float
+      float-right	  float: right;
+      float-left	  float: left;
+      float-none	  float: none;
+    -->

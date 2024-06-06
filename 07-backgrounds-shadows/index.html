@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Backgrounds & Shadows</title>
+  </head>
+  <body>
+    <!-- Background Classes -->
+
+    <div class="w-2/4 h-64 mx-auto bg-cover bg-no-repeat bg-center" style="background-image: url('../assets/img/img1.jpg');"></div>
+
+    <!-- Gradients -->
+    <div class="w-2/4 h-24 bg-gradient-to-t from-cyan-500 to-blue-500 mx-auto mt-5"></div>
+    <div class="mt-5 w-2/4 h-24 mx-auto bg-gradient-to-r from-sky-400 from-20% via-cyan-600 via-40% to-blue-500 to-90%"></div>
+    <!-- Shadows -->
+    <div class="max-w-md mx-auto mt-5 bg-gradient-to-r from-sky-400 from-20% via-cyan-600 via-40% to-blue-500 to-90% p-5 shadow-inner shadow-green-200 rounded-md text-white uppercase italic text-center font-black mb-3">
+      <h3 class="underline underline-offset-8 decoration-wavy decoration-red-400">hello world !!!</h3>
+      <p class="font-light capitalize pt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ipsa inventore accusamus laboriosam, suscipit ullam tempore recusandae! Id, corporis odit?</p>
+    </div>
+    <div class="max-w-md mx-auto mt-5 bg-gradient-to-r from-sky-400 from-20% via-cyan-600 via-40% to-blue-500 to-90% p-5 shadow-2xl shadow-green-200 rounded-md text-white uppercase italic text-center font-black mb-3">
+      <h3 class="underline underline-offset-8 decoration-wavy decoration-red-400">hello world !!!</h3>
+      <p class="font-light capitalize pt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ipsa inventore accusamus laboriosam, suscipit ullam tempore recusandae! Id, corporis odit?</p>
+    </div>
+    <!-- Mix Blend -->
+    <div class="flex justify-center -space-x-24 w-2/3 mx-auto rounded-sm mt-4 mb-5 p-6">
+      <div class="mix-blend-multiply bg-blue-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, eaque debitis placeat quisquam quia eum vel doloremque est architecto sapiente quo ducimus assumenda rem animi blanditiis sed magni exercitationem fugiat.</div>
+      <div class=" bg-pink-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad enim a voluptates amet blanditiis ratione explicabo, eveniet quod cupiditate cum odio quaerat id tempora neque expedita dolorem recusandae deleniti unde.</div>
+    </div>
+  </body>
+</html>
+
+<!-- Background Size
+  bg-auto	    background-size: auto;
+  bg-cover	  background-size: cover;
+  bg-contain	background-size: contain;
+-->
+
+<!-- Background Repeat
+  bg-repeat	      background-repeat: repeat;
+  bg-no-repeat	  background-repeat: no-repeat;
+  bg-repeat-x	    background-repeat: repeat-x;
+  bg-repeat-y	    background-repeat: repeat-y;
+  bg-repeat-round	background-repeat: round;
+  bg-repeat-space	background-repeat: space;
+-->
+
+<!-- Background Position
+  bg-bottom	      background-position: bottom;
+  bg-center	      background-position: center;
+  bg-left	        background-position: left;
+  bg-left-bottom	background-position: left bottom;
+  bg-left-top	    background-position: left top;
+  bg-right	      background-position: right;
+  bg-right-bottom	background-position: right bottom;
+  bg-right-top	  background-position: right top;
+  bg-top	        background-position: top;
+-->
+
+<!-- Background Attachment
+  bg-fixed	  background-attachment: fixed;
+  bg-local	  background-attachment: local;
+  bg-scroll	  background-attachment: scroll;
+-->
+
+<!-- 
+  Shadows
+  shadow-sm	    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  shadow	      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  shadow-md	    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  shadow-lg	    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  shadow-xl	    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  shadow-2xl	  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  shadow-inner	box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  shadow-none	  box-shadow: 0 0 #0000;
+ -->
